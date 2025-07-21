@@ -1,0 +1,44 @@
+body {
+  background: linear-gradient(to bottom right, #e3f2fd, #ffffff);
+  font-family: 'Orbitron', sans-serif;
+  color: #000; /* texto general visible */
+}
+
+.neo-card {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 8px 20px rgba(0, 255, 255, 0.3);
+  padding: 20px;
+}
+
+.neon-input {
+  background-color: #f4faff;
+  border: 2px solid #00c8d1;
+  color: #000;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.neon-input:focus {
+  box-shadow: 0 0 10px #00f2ff;
+  border-color: #00f2ff;
+  background-color: #ffffff;
+  color: #000;
+}
+
+.btn-glow {
+  background-color: #00f2ff;
+  border: none;
+  color: #000;
+  font-weight: bold;
+  text-shadow: 0 0 5px #fff;
+  box-shadow: 0 0 15px #00f2ff;
+  border-radius: 8px;
+  padding: 10px 20px;
+}
+
+.btn-glow:hover {
+  background-color: #00c8d1;
+  box-shadow: 0 0 25px #00e6ff;
+}
